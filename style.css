@@ -11,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #9a73c7;
+  color: #7b5fbf;
 }
 
 h1, h2, h3 {
@@ -108,6 +108,7 @@ li {
   background-color: #f4f0fa; /* Très doux violet clair */
   padding: 30px;
   box-sizing: border-box;
+  color: #3b2f4a; /* Texte plus foncé et lisible */
 }
 
 .profile_frame {
@@ -127,13 +128,24 @@ li {
 }
 
 .hello_content h2 {
-  color: #8a6fcf;
+  color: #7b5fbf;
 }
 
 .contact_details_content h2,
 .get_social_content h2 {
-  color: #8a6fcf;
+  color: #7b5fbf;
   margin-top: 25px;
+}
+
+.contact_details_content p,
+.get_social_content a,
+.get_social_content li {
+  color: #3b2f4a; /* Couleur bien contrastée pour email, téléphone, adresse */
+  font-weight: 500;
+}
+
+.get_social_content a:hover {
+  color: #9a73c7;
 }
 
 /* ------------------------
@@ -150,7 +162,7 @@ li {
 }
 
 .block h1, .block h2 {
-  color: #8a6fcf;
+  color: #7b5fbf;
   font-weight: 500;
 }
 
