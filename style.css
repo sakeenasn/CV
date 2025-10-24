@@ -219,3 +219,21 @@ li {
     margin-top: 20px;
   }
 }
+/* ------------------------
+   FIX VISIBILITÉ TEXTE GAUCHE
+------------------------ */
+#left_col,
+#left_col * {
+  color: #1f1633 !important; /* violet très foncé = parfaitement lisible */
+}
+
+#left_col a {
+  color: #3a1c77 !important; /* un peu plus violet pour les liens */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#left_col a:hover {
+  color: #7b5fbf !important; /* survol pastel doux */
+  text-decoration: underline;
+}
