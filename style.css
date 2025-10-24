@@ -105,10 +105,10 @@ li {
 ------------------------ */
 #left_col {
   width: 30%;
-  background-color: #f4f0fa; /* Très doux violet clair */
+  background-color: #f4f0fa; /* Violet très clair */
   padding: 30px;
   box-sizing: border-box;
-  color: #3b2f4a; /* Texte plus foncé et lisible */
+  color: #2e1f47; /* Couleur principale du texte, bien visible */
 }
 
 .profile_frame {
@@ -124,30 +124,32 @@ li {
   object-position: center;
   background: #ddd url('images/profile.jpg') center/cover;
   margin: 0 auto;
-  border: 3px solid #d7c6f3; /* contour pastel */
+  border: 3px solid #d7c6f3;
 }
 
-.hello_content h2 {
-  color: #7b5fbf;
-}
-
+.hello_content h2,
 .contact_details_content h2,
 .get_social_content h2 {
-  color: #7b5fbf;
+  color: #7b5fbf; /* Violet pastel contrasté pour les titres */
   margin-top: 25px;
+  font-weight: 600;
 }
 
+/* Texte des contacts : couleur forcée et bien lisible */
 .contact_details_content p,
+.contact_details_content a,
 .get_social_content a,
 .get_social_content li {
-  color: #3b2f4a; /* Couleur bien contrastée pour email, téléphone, adresse */
+  color: #2e1f47 !important; /* forcé pour être bien visible */
   font-weight: 500;
+  font-size: 0.95em;
 }
 
+.contact_details_content a:hover,
 .get_social_content a:hover {
-  color: #9a73c7;
+  color: #9a73c7; /* Survol doux violet */
+  text-decoration: underline;
 }
-
 /* ------------------------
    MAIN CONTENT
 ------------------------ */
