@@ -13,9 +13,4 @@ Anime.js : animations orbitales et interactions simples
 Résultats attendus :
 Une animation fluide du système solaire avec planètes en orbite. Possibilité d’interagir pour observer les planètes et leurs caractéristiques
 
-
-https://github.com/sakeenasn/projet1
-
-
-
-https://sakeenasn.github.io/projet1/
+https://sakeenasn.github.io/projet/
